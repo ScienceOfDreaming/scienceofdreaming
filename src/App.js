@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+const insideStyles = {background: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div class="full-cover">
+          <div id='main-title'>
+            <div id="big">
+                The Science of Dreaming
+            </div>
+            <div id="small">
+              <i>Dream (n): A series of thoughts, images, and sensations occurring in a person's mind during sleep</i>
+              </div>
+          </div>
+        </div>
       </div>
     );
   }
