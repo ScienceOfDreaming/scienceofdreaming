@@ -1,0 +1,21 @@
+/*TODO: Add prefix-classes if needed. */
+
+.section {
+    background-color: yellow;
+    height: 100vh;
+}
+
+.panes {
+    height: 70vh;
+    width: 70vw;
+    background-color: black;
+    display: flex;
+}
+
+.pane {
+    width: 33.33%;
+}
+
+.card-in-grid {
+    height: 100%;
+}
