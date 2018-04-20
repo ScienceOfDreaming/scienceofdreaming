@@ -1,0 +1,62 @@
+* {
+  font-family: 'Crimson Text', serif;
+}
+
+.basicsWhen-cover {
+  background-image: linear-gradient(to bottom, #ebc312, #f9a92d, #fc9045, #f57b5a, #e66c6c);
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#section-big {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+}
+
+.left-pane {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.middle-pane {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.right-pane {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  float: right;
+}
+
+.mini-image {
+  width: 75%;
+  margin: 50px;
+  border-radius: 3%;
+}
+
+.content {
+  margin: 50px;
+  font-size: 28px;
+}
+
+.fact {
+  font-family: 'Gaegu', cursive;
+  font-size: 36px;
+  margin: 20px;
+}
+
+.section {
+}
+
+/*.pane-divider {
+     border-right:1px solid black; 
+     height:100px;
+     position:relative; 
+}*/
