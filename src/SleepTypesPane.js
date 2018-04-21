@@ -4,7 +4,6 @@ import nightmare from './img/nightmare.png';
 import daydream from './img/daydream.png';
 import Grid from 'material-ui/Grid';
 import Typography from 'material-ui/Typography';
-// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import './SleepTypesPane.css';
 import SleepTypeCard from './SleepTypeCard';
 
@@ -21,21 +20,25 @@ export default class SleepTypesPane extends Component {
                             <SleepTypeCard
                                 image={lucid_dream}
                                 title="Lucid Dreaming"
-                                description="Control your dreams!"
+                                description="Once doubted to even exist, lucid dreaming offers an experience
+                                that no other type of dreaming can: the power to control your dreams!"
                             />
                         </Grid>
                         <Grid item className='pane'>
                             <SleepTypeCard
                                 image={daydream}
                                 title="Daydreaming"
-                                description="Are you wondering about something so much that it feels...real?"
+                                description="Are you wondering about something so much that it feels...real?
+                                How does one dream yet at the same time isn't fully asleep?"
                             />
                         </Grid>
                         <Grid item className='pane'>
                             <SleepTypeCard
                                 image={nightmare}
                                 title="Nightmares"
-                                description="'Why are my dreams so scary :-('"
+                                description="Ever had a scary dream? For most people, the answer will be yes.
+                                It turns out that there are some interesting forces at play—or, you could just
+                                be getting older."
                             />
                         </Grid>
                     </Grid>

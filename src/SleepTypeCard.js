@@ -3,6 +3,7 @@ import Card, {CardActions, CardMedia, CardContent, CardTitle} from 'material-ui/
 import lucid_dream from './img/lucid_dream.png';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
+import './SleepTypeCard.css';
 
 export default class SleepTypeCard extends Component {
     constructor(props) {
@@ -18,19 +19,22 @@ export default class SleepTypeCard extends Component {
                         className='card-media-image'
                         image={this.props.image}/>
                 </div>
-                <CardContent>
-                    <Typography gutterBottom variant="headline" component="h2">
+                <CardContent className='card-content'>
+                    <Typography gutterBottom variant="headline" component="h1"
+                    align="center"
+                    gutterBottom={true}>
                         {this.props.title}
                     </Typography>
-                    <Typography component="p">
+                    <Typography component="p" paragraph={true} align="justify">
                         {this.props.description}
                     </Typography>
-                    <CardActions>
-                        <Button size="small" color="primary">
-                            Learn More
-                        </Button>
-                    </CardActions>
                 </CardContent>
+                <CardActions className='card-actions'>
+                    <Button size="large" color="primary"
+                    variant="raised">
+                        Learn More
+                    </Button>
+                </CardActions>
             </Card>
         );
     }
