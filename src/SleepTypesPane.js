@@ -11,8 +11,12 @@ export default class SleepTypesPane extends Component {
     render() {
         return (
             <Grid container className='section' spacing={0} justify="center">
-                <Grid item xs={12}>
-                    <div> The Different Kinds of Dreaming </div>
+                <Grid item xs={12} className='vertical-align-content'>
+                    <div className='vertical-align-content'>
+                        <div className='sleep-types-title'>
+                            The Different Kinds of Dreaming
+                        </div>
+                    </div>
                 </Grid>
                 <Grid item className={'panes'}>
                     <Grid container>
@@ -44,8 +48,12 @@ export default class SleepTypesPane extends Component {
                     </Grid>
                 </Grid>
                 <Grid item xs={12}>
-                    <div> There are various different types of dreaming.
-                    Click on each pane to check out the different types!</div>
+                    <Typography variant='subheading' component='h3' align='center'>
+                        <div className='sleep-types-message'>
+                            There are various different types of dreaming.
+                            Click on each pane to check out the different types!
+                        </div>
+                    </Typography>
                 </Grid>
             </Grid>
         )
