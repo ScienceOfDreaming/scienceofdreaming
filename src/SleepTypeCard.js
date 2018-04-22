@@ -4,12 +4,24 @@ import lucid_dream from './img/lucid_dream.png';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import './SleepTypeCard.css';
+import SleepTypeDialog from './SleepTypeDialog';
 
 export default class SleepTypeCard extends Component {
     constructor(props) {
-        super(props)
-        this.state = {}
+        super(props);
     }
+
+    state = {
+        open: false,
+    };
+
+    handleClickOpen = () => {
+        this.setState({ open: true });
+    };
+
+    handleClose = () => {
+        this.setState({ open: false });
+    };
 
     render() {
         return (
@@ -30,10 +42,10 @@ export default class SleepTypeCard extends Component {
                     </Typography>
                 </CardContent>
                 <CardActions className='card-actions'>
-                    <Button size="large" color="primary"
-                    variant="raised">
+                    <Button size="large" color="primary" variant="raised" onClick={this.handleClickOpen}>
                         Learn More
                     </Button>
+                    <SleepTypeDialog open={this.state.open} onClose={this.handleClose}/>
                 </CardActions>
             </Card>
         );
