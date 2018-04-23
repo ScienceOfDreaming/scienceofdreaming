@@ -23,9 +23,22 @@ export default class SleepTypeCard extends Component {
         this.setState({ open: false });
     };
 
+    mouseOut = () => {
+        this.setState({ raised: false });
+    };
+
+    mouseOver = () => {
+        this.setState({ raised: true })
+    };
+
     render() {
         return (
-            <Card className='card-in-grid'>
+            <Card
+                className='card-in-grid'
+                raised={this.state.raised}
+                onMouseOver={this.mouseOver}
+                onMouseOut={this.mouseOut}
+            >
                 <div className='card-media-container'>
                     <CardMedia
                         className='card-media-image'
