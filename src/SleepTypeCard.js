@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import Card, {CardActions, CardMedia, CardContent, CardTitle} from 'material-ui/Card';
-import lucid_dream from './img/lucid_dream.png';
+import Card, {CardActions, CardMedia, CardContent} from 'material-ui/Card';
 import Button from 'material-ui/Button';
 import Typography from 'material-ui/Typography';
 import './SleepTypeCard.css';
 import SleepTypeDialog from './SleepTypeDialog';
 
 export default class SleepTypeCard extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     state = {
         open: false,
     };
@@ -45,9 +40,7 @@ export default class SleepTypeCard extends Component {
                         image={this.props.image}/>
                 </div>
                 <CardContent className='card-content'>
-                    <Typography gutterBottom variant="headline" component="h1"
-                    align="center"
-                    gutterBottom={true}>
+                    <Typography gutterBottom={true} variant="headline" component="h1" align="center">
                         {this.props.title}
                     </Typography>
                     <Typography component="p" paragraph={true} align="justify">

@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
-import Paper from 'material-ui/Paper';
-import Button from 'material-ui/Button';
-import Dialog, {
-  DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle,
-} from 'material-ui/Dialog';
+import Dialog from 'material-ui/Dialog';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import Typography from 'material-ui/Typography';
 
@@ -20,10 +13,6 @@ function TabContainer(props) {
 }
 
 export default class SleepTypeDialog extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     state = {
         value: 0,
     };
