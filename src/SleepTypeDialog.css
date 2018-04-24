@@ -2,3 +2,7 @@
     width: 50vw;
     height: 60vh;
 }
+
+.app-bar-above-content {
+    margin-bottom: 20px;
+}

@@ -51,7 +51,9 @@ export default class SleepTypeCard extends Component {
                     <Button size="large" color="primary" variant="raised" onClick={this.handleClickOpen}>
                         Learn More
                     </Button>
-                    <SleepTypeDialog open={this.state.open} onClose={this.handleClose}/>
+                    <SleepTypeDialog open={this.state.open} onClose={this.handleClose}>
+                        {this.props.children}
+                    </SleepTypeDialog>
                 </CardActions>
             </Card>
         );
