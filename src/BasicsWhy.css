@@ -13,7 +13,7 @@ background-image: linear-gradient(to bottom, #a8eb12, #bee100, #d0d700, #dfcd00,
     font-size: 36px;
     font-weight: 300;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 
 .left-pane {
@@ -42,7 +42,7 @@ background-image: linear-gradient(to bottom, #a8eb12, #bee100, #d0d700, #dfcd00,
 }
 
 .content {
-  margin: 50px;
+  margin: 40px;
   font-size: 28px;
 }
 

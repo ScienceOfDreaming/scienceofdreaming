@@ -22,13 +22,13 @@ class BasicsWhy extends Component {
             <div class="middle-pane">
               {/*content*/}
                 <div class="content">
-                "Introductory sentence here explaining what this section is about."
+                While there are many possible explanations, there is no consensus on these theories.
                 <ul>
-                  <li>details</li>
+                  <li>One hypothesis is dreams <strong>help us adapt to stressful waking events</strong> by having us relate new stressful situations back to how we solved similar problems earlier.</li>
                   <br />
-                  <li>details</li>
+                  <li>Sigmund Freud believed dreams expressed personal content, an idea of <strong>wish fulfillment</strong></li>
                   <br />
-                  <li>details</li>
+                  <li>In general, there is no one reason - dream sleep <strong>supports a wide variety of bodily functions</strong>.</li>
                 </ul>
                 </div>
             </div> 
@@ -39,7 +39,7 @@ class BasicsWhy extends Component {
               {/*did you know*/}
               <div class="fact">
                 Did you know? <br />
-                insert fun fact about why we dream here.
+                We forget <strong>95%</strong> of the dreams we have, especially within the first 10 minutes of having them!
               </div>
             </div> 
 

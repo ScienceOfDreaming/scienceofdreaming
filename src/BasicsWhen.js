@@ -22,13 +22,13 @@ class BasicsWhen extends Component {
             <div class="middle-pane">
               {/*content*/}
                 <div class="content">
-                "Introductory sentence here explaining what this section is about."
+                During our sleep cycle, we alternate between <em>REM</em> (rapid-eye movement) sleep and <em>NREM</em> sleep.
                 <ul>
-                  <li>details</li>
+                  <li>Dreams are possible during both states but happen more often in REM sleep</li>
                   <br />
-                  <li>details</li>
+                  <li>There are usually <strong>4 to 6 dream periods</strong> in an eight-hour night</li>
                   <br />
-                  <li>details</li>
+                  <li>REM state dreams are typically <strong>longer, more vivid, more animated</strong></li>
                 </ul>
                 </div>
             </div> 
@@ -38,8 +38,8 @@ class BasicsWhen extends Component {
             <div class="right-pane">
               {/*did you know*/}
               <div class="fact">
-                Did you know? <br />
-                insert fun fact about when we dream here.
+                Did you know?<br />
+                The time spent dreaming varies with age - adults spend <strong>~25%</strong> of their sleep in REM while children spend <strong>~50%</strong>!
               </div>
             </div> 
 

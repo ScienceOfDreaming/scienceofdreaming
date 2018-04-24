@@ -7,7 +7,7 @@ class Basics extends Component {
       <div className="Basics">
         <div class="section basics-cover">
           <div id="section-big">
-              <strong>What</strong> do we dream about?
+              <strong>What</strong> are dreams?
           </div>
           <div>
 

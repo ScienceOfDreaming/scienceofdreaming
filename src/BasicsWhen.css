@@ -13,7 +13,7 @@
     font-size: 36px;
     font-weight: 300;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 
 .left-pane {
@@ -39,10 +39,11 @@
   width: 75%;
   margin: 50px;
   border-radius: 3%;
+  /*margin-top: 175px;*/
 }
 
 .content {
-  margin: 50px;
+  margin: 40px;
   font-size: 28px;
 }
 
