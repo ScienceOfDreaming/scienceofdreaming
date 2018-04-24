@@ -96,7 +96,48 @@ export default class SleepTypesPane extends Component {
                                 title="Daydreaming"
                                 description="Are you wondering about something so much that it feels...real?
                                 How does one dream yet at the same time isn't fully asleep?"
-                            />
+                            >
+                                <TabContent>
+                                    <DialogContentText>
+                                      Daydreaming is when one gets caught up in their own lucid thoughts.
+                                      The dreamer is in a state that's considered to be between asleep and awake. Mentally, the dreamer is "transported" away from whatever the dreamer's current situation is—the dreamer may even forget what they were doing right before the daydream!
+                                      <ul>
+                                        <li>Daydreams usually last around a minute.</li>
+                                        <li>Daydreams usually aren't very symbolic.</li>
+                                        <li>Daydreams may make one drool!</li>
+                                      </ul>
+                                    </DialogContentText>
+                                </TabContent>
+                                <TabContent>
+                                    <DialogContentText>
+                                      Daydreams may occur out of the blue, or they may come from pure boredom.
+                                      In any case, when a daydream does happen, parts of the brain get shut off.
+                                      Our brain naturally cycles through different modes of thinking; during this time,
+                                      the analytical and emphathetical parts of the brain tend to turn each other off.
+                                      <ul>
+                                        <li>The brain—not the mind—controls daydreams.</li>
+                                        <li>Daydreams are considered restful moments for our brain!</li>
+                                        <li>
+                                          Technology, however, may be posing a problem.
+                                          Recent studies show a negative correlation between technology use and how much we
+                                          may daydream.
+                                        </li>
+                                      </ul>
+                                    </DialogContentText>
+                                </TabContent>
+                                <TabContent>
+                                  <DialogContentText>
+                                    Daydreaming is done on purpose, especially when dealing with cognitively easy tasks.
+                                    No need to be concerned—there are benefits to daydreaming!
+                                    <ul>
+                                      <li>Daydreaming motivates people to work towards accomplishing goals.</li>
+                                      <li>Daydreaming may distract us from immediate tasks to solve other, more important problems;</li>
+                                      <li>Daydreaming boosts creativity.</li>
+                                      <li>Daydreaming overall provides a relaxing experience!</li>
+                                    </ul>
+                                  </DialogContentText>
+                                </TabContent>
+                            </SleepTypeCard>
                         </Grid>
                         <Grid item className='pane'>
                             <SleepTypeCard
@@ -105,7 +146,52 @@ export default class SleepTypesPane extends Component {
                                 description="Ever had a scary dream? For most people, the answer will be yes.
                                 It turns out that there are some interesting forces at play—or, you could just
                                 be getting older."
-                            />
+                            >
+                                <TabContent>
+                                  <DialogContentText>
+                                    Nightmares are vividly realistic, disturbing dreams that rattle you awake from
+                                    a deep sleep. They often set your heart pounding from fear!
+                                    While children have it more often, one out of every two adults has a nightmare on occasion.
+                                    <ul>
+                                      <li>
+                                        Nightmares are NOT the same as night terrors,
+                                        which are feelings of terror that may occur in the first few hours after falling asleep.
+                                        People won't recall why they are terrified upon awakening.
+                                      </li>
+                                      <li>
+                                        Between 2% and 8% of the adult population is plagued by nightmares.
+                                      </li>
+                                      <li>Nightmares are technically a parasomnia!</li>
+                                      <li>Daydreaming overall provides a relaxing experience!</li>
+                                    </ul>
+                                  </DialogContentText>
+                                </TabContent>
+                                <TabContent>
+                                  <DialogContentText>
+                                    There's various causes as to how it happens, including:
+                                      <ul>
+                                        <li>Withdrawal from medications and substances</li>
+                                        <li>Sleep deprivation (which can cause nightmares, which can cause more sleep deprivation!!)</li>
+                                        <li>Anxiety or PTSD</li>
+                                        <li>Late night snacks</li>
+                                        <li>Getting older (nightmares tend to be more concerned with death as we age)</li>
+                                        <li>Other sleep disorders like sleep apnea and restless legs syndrome.</li>
+                                      </ul>
+                                  </DialogContentText>
+                                </TabContent>
+                                <TabContent>
+                                  <DialogContentText>
+                                    Nightmares can cause sleep deprivation and psychological distress.
+                                    However, they can be treated! Besides making such changes as adjusting prescriptions (if medications are at fault) or dealing with other underlying sleep disorders, one can take part in a variety of habits that will improve sleep and reduce incidence of nightmares!
+                                    <ul>
+                                      <li>Have a regular wake-sleep schedule.</li>
+                                      <li>Engage in regular exercise.</li>
+                                      <li>Meditate or do yoga!</li>
+                                      <li>Maintain overall sleep hygeine (e.g. be careful with caffeine, don't associate bed with stressful activities).</li>
+                                    </ul>
+                                  </DialogContentText>
+                                </TabContent>
+                            </SleepTypeCard>
                         </Grid>
                     </Grid>
                 </Grid>
