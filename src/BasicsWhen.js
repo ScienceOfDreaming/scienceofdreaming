@@ -24,7 +24,7 @@ class BasicsWhen extends Component {
                 <div class="content">
                 During our sleep cycle, we alternate between <em>REM</em> (rapid-eye movement) sleep and <em>NREM</em> sleep.
                 <ul>
-                  <li>Dreams are possible during both states but happen more often in REM sleep</li>
+                  <li>Dreams are possible during both states but happen <strong>more often in REM sleep</strong></li>
                   <br />
                   <li>There are usually <strong>4 to 6 dream periods</strong> in an eight-hour night</li>
                   <br />

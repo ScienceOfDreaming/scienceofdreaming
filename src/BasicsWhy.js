@@ -24,7 +24,7 @@ class BasicsWhy extends Component {
                 <div class="content">
                 While there are many possible explanations, there is no consensus on these theories.
                 <ul>
-                  <li>One hypothesis is dreams <strong>help us adapt to stressful waking events</strong> by having us relate new stressful situations back to how we solved similar problems earlier.</li>
+                  <li>One hypothesis is dreams <strong>help us adapt to stressful waking events</strong> - relating new stressful situations to how we solved similar problems.</li>
                   <br />
                   <li>Sigmund Freud believed dreams expressed personal content, an idea of <strong>wish fulfillment</strong></li>
                   <br />

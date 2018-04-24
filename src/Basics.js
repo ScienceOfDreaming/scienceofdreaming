@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Basics.css';
+import Paper from 'material-ui/Paper';
 
 class Basics extends Component {
   render() {
@@ -17,21 +18,19 @@ class Basics extends Component {
             
             </div>
 
-            
-
-            <div class="middle-pane">
-              {/*content*/}
-                <div class="content">
-                "Introductory sentence here explaining what this section is about."
-                <ul>
-                  <li>details</li>
-                  <br />
-                  <li>details</li>
-                  <br />
-                  <li>details</li>
-                </ul>
-                </div>
-            </div> 
+              <div class="middle-pane">
+                {/*content*/}
+                  <div class="content">
+                  Dreams are a series of <strong>thoughts, images, and sensations</strong> occurring in the mind during sleep.
+                  <ul>
+                    <li>Dreams are <strong>created at random</strong> through electrical impulses which are recognized by the conscious brain</li>
+                    <br />
+                    <li>Dreams can be confusing, irrational, and bring out a <strong>wide variety of emotions</strong></li>
+                    <br />
+                    <li>While you dream, your will is absent or diminished - you do not have any control, with the exception of lucid dreaming</li>
+                  </ul>
+                  </div>
+              </div> 
 
             
 
@@ -39,7 +38,7 @@ class Basics extends Component {
               {/*did you know*/}
               <div class="fact">
                 Did you know? <br />
-                insert fun fact about dreaming here.
+                There are many kinds of dreaming - from daydreams and nightmares to out-of-body and lucid dreaming!
               </div>
             </div> 
 
