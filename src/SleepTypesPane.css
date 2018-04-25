@@ -1,0 +1,31 @@
+/*TODO: Add prefix-classes if needed. */
+
+.section {
+    background-color: yellow;
+    height: 100vh;
+}
+
+.panes {
+    height: 70vh;
+    width: 70vw;
+    background-color: black;
+    display: flex;
+}
+
+.pane {
+    width: 33.33%;
+}
+
+.vertical-align-content {
+    display: grid;
+    margin: auto;
+}
+
+.sleep-types-title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.sleep-types-message {
+    font-size: 24px;
+}
