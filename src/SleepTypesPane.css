@@ -1,7 +1,7 @@
 /*TODO: Add prefix-classes if needed. */
 
-.section {
-    background-color: yellow;
+.sleepTypes-cover {
+    background-image: linear-gradient(to bottom, #e66c6c, #f76988, #ff6aa9, #ff72d0, #f780f9);
     height: 100vh;
 }
 
@@ -27,5 +27,5 @@
 }
 
 .sleep-types-message {
-    font-size: 24px;
+    font-size: 18px;
 }

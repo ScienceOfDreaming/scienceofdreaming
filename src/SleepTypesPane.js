@@ -10,11 +10,13 @@ import { TabContent } from './SleepTypeDialog';
 import {
   DialogContentText
 } from 'material-ui/Dialog';
+import Button from 'material-ui/Button';
+import Sources from './Sources'
 
 export default class SleepTypesPane extends Component {
     render() {
         return (
-            <Grid container className='section' spacing={0} justify="center">
+            <Grid container className='sleepTypes-cover' spacing={0} justify="center">
                 <Grid item xs={12} className='vertical-align-content'>
                     <div className='vertical-align-content'>
                         <div className='sleep-types-title'>
@@ -198,8 +200,7 @@ export default class SleepTypesPane extends Component {
                 <Grid item xs={12}>
                     <Typography variant='subheading' component='h3' align='center'>
                         <div className='sleep-types-message'>
-                            There are various different types of dreaming.
-                            Click on each pane to check out the different types!
+                            Made by Shafqat Dulal and Nimalen Sivapalan for the Sleep DeCal. <Sources></Sources>
                         </div>
                     </Typography>
                 </Grid>

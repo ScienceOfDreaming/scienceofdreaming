@@ -24,6 +24,7 @@ class App extends Component {
         <BasicsWhy></BasicsWhy>
         <BasicsWhen></BasicsWhen>
         <SleepTypesPane></SleepTypesPane>
+
       </div>
     );
   }
