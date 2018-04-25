@@ -13,11 +13,11 @@ class BasicsWhen extends Component {
 
             <div class="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q" />
-            
+              <img class="mini-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q" alt=''/>
+
             </div>
 
-            
+
 
             <div class="middle-pane">
               {/*content*/}
@@ -31,9 +31,9 @@ class BasicsWhen extends Component {
                   <li>REM state dreams are typically <strong>longer, more vivid, more animated</strong></li>
                 </ul>
                 </div>
-            </div> 
+            </div>
 
-            
+
 
             <div class="right-pane">
               {/*did you know*/}
@@ -41,7 +41,7 @@ class BasicsWhen extends Component {
                 Did you know?<br />
                 The time spent dreaming varies with age - adults spend <strong>~25%</strong> of their sleep in REM while children spend <strong>~50%</strong>!
               </div>
-            </div> 
+            </div>
 
           </div>
         </div>

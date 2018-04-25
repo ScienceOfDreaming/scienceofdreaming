@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Basics.css';
-import Paper from 'material-ui/Paper';
 
 class Basics extends Component {
   render() {
@@ -14,8 +13,8 @@ class Basics extends Component {
 
             <div class="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn" />
-            
+              <img class="mini-image" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn" alt=''/>
+
             </div>
 
               <div class="middle-pane">
@@ -30,9 +29,9 @@ class Basics extends Component {
                     <li>While you dream, your will is absent or diminished - you do not have any control, with the exception of lucid dreaming</li>
                   </ul>
                   </div>
-              </div> 
+              </div>
 
-            
+
 
             <div class="right-pane">
               {/*did you know*/}
@@ -40,7 +39,7 @@ class Basics extends Component {
                 Did you know? <br />
                 There are many kinds of dreaming - from daydreams and nightmares to out-of-body and lucid dreaming!
               </div>
-            </div> 
+            </div>
 
           </div>
         </div>

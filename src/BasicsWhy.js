@@ -13,11 +13,11 @@ class BasicsWhy extends Component {
 
             <div class="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264" />
-            
+              <img class="mini-image" src="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264" alt=''/>
+
             </div>
 
-            
+
 
             <div class="middle-pane">
               {/*content*/}
@@ -31,9 +31,9 @@ class BasicsWhy extends Component {
                   <li>In general, there is no one reason - dream sleep <strong>supports a wide variety of bodily functions</strong>.</li>
                 </ul>
                 </div>
-            </div> 
+            </div>
 
-            
+
 
             <div class="right-pane">
               {/*did you know*/}
@@ -41,7 +41,7 @@ class BasicsWhy extends Component {
                 Did you know? <br />
                 We forget <strong>95%</strong> of the dreams we have, especially within the first 10 minutes of having them!
               </div>
-            </div> 
+            </div>
 
           </div>
         </div>
