@@ -10,7 +10,6 @@ import { TabContent } from './SleepTypeDialog';
 import {
   DialogContentText
 } from 'material-ui/Dialog';
-import Button from 'material-ui/Button';
 import Sources from './Sources'
 import ScrollAnimation from 'react-animate-on-scroll';
 
