@@ -57,16 +57,24 @@ class SimpleModal extends React.Component {
               Sources/Credits
             </Typography>
             <Typography variant="subheading" id="simple-modal-description">
-              Here is a list of all sources/credits used for this website.
+              Here is a list of all sources used for this website.
               <ol>
                 <li><a target="_" href="http://dreamscience.org/science_of_dreaming_images/The_Science_of_Dreaming-Rev_1%20_2_.pdf"><em>The Science of Dreaming</em></a> [PDF]</li>
-                <li><a target="_" href="https://youtu.be/7GGzc3x9WJU">Why do We Dream?</a> [Video]</li>
-                <li><a target="_" href="https://www.webmd.com/sleep-disorders/guide/dreaming-overview#1">Facts about Dreaming</a></li>
-                <li>Image</li>
-                <li>Image</li>
-                <li>Image</li>
-                <li>Image</li>
-                <li><a target="_" href="https://www.favicon.cc/?action=icon&file_id=900481">Favicon</a></li>
+                <li><a target="_" href="https://youtu.be/7GGzc3x9WJU">Why do We Dream?</a> [YouTube video]</li>
+                <li><a target="_" href="https://www.webmd.com/sleep-disorders/guide/dreaming-overview#1">Facts about Dreaming</a> [<em>WebMD</em>]</li>
+                <li><a target="_" href="https://sites.psu.edu/siowfa15/2015/09/10/the-science-behind-lucid-dreaming/">The Science Behind Lucid Dreaming</a> [Website]</li>
+                <li><a target="_" href="https://www.udemy.com/dream-hacking/">Dream Hacking</a> [Udemy online course]</li>
+                <li><a target="_" href="http://howtolucid.com/wake-induced-lucid-dream-w-l-d-technique/">Wake Induced Lucid Dreaming: The Most Effective WILD Tutorial</a> [Website]</li>
+                <li><a target="_" href="https://www.stuffyoushouldknow.com/podcasts/can-you-control-your-dreams.htm">Can you control your dreams?</a> [Podcast]</li>
+                <li><a target="_" href="https://news.nationalgeographic.com/news/2013/07/130716-daydreaming-science-health-brain/">Five Surprising Facts About Daydreaming</a> [<em>National Geographic</em>]</li>
+                <li><a target="_" href="https://www.newyorker.com/humor/daily-shouts/the-science-of-daydreams">The Science of Daydreams</a> [<em>The New Yorker</em>]</li>
+                <li><a target="_" href="https://www.webmd.com/sleep-disorders/guide/nightmares-in-adults">Nightmares in Adults</a> [<em>WebMD</em>]</li>
+                <li><a target="_" href="https://www.livescience.com/56096-surprising-facts-about-daydreaming.html">Daydreaming Again? 5 Facts About the Wandering Mind</a> [<em>Live Science</em>]</li>
+                <li><a target="_" href="https://www.google.com/search?hl=en&q=signature+of+all+things:+signatura+rerum+(forgotten+books)&tbm=isch&tbs=simg:CAQSlQEJAlGiPXgC6aUaiQELEKjU2AQaAggVDAsQsIynCBpiCmAIAxIojQuKC4kL-QuCC4kEiwuEC4YLkgvhIckiozfeIqQ3uyuqN-k5pzemKxownZJY9NEYOS1tMnbQ_1X1FmEnLkkypdwjddSxEqOf19CBT09PMftaPVHZYgtLi8Y8JIAQMCxCOrv4IGgoKCAgBEgQo8MrpDA&sa=X&ved=0ahUKEwjDksu1x9baAhVJVWMKHW7qD7MQwg4IJigA&biw=1280&bih=680&dpr=2#imgrc=nD6REPCYi3R3wM:">Main cover</a> [image]</li>
+                <li><a target="_" href="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn">Image for "What" section</a> [image]</li>
+                <li><a target="_" href="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264">Image for "Why" section</a> [image]</li>
+                <li><a target="_" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q">Image for "When" section</a> [image]</li>
+                <li><a target="_" href="https://www.favicon.cc/?action=icon&file_id=900481">Favicon</a> [image]</li>
               </ol>
             </Typography>
             <Button onClick={this.handleClose}>Close</Button>
