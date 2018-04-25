@@ -1,7 +1,9 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.249ba6ab.js",
-  "main.js.map": "static/js/main.249ba6ab.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.fa262ffe.css",
+  "main.css.map": "static/css/main.fa262ffe.css.map",
+  "main.js": "static/js/main.50621bc1.js",
+  "main.js.map": "static/js/main.50621bc1.js.map",
+  "static/media/bg.jpg": "static/media/bg.c8a4a88c.jpg",
+  "static/media/lucid_dream.png": "static/media/lucid_dream.62d2f57e.png",
+  "static/media/nightmare.png": "static/media/nightmare.c1c438a4.png"
 }
