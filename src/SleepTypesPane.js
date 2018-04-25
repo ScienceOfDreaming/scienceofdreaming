@@ -12,6 +12,7 @@ import {
 } from 'material-ui/Dialog';
 import Button from 'material-ui/Button';
 import Sources from './Sources'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default class SleepTypesPane extends Component {
     render() {
@@ -19,9 +20,11 @@ export default class SleepTypesPane extends Component {
             <Grid container className='sleepTypes-cover' spacing={0} justify="center">
                 <Grid item xs={12} className='vertical-align-content'>
                     <div className='vertical-align-content'>
-                        <div className='sleep-types-title'>
-                            The <strong>Different Kinds</strong> of Dreaming
-                        </div>
+                        <ScrollAnimation animateIn="fadeIn">
+                          <div className='sleep-types-title'>
+                              The <strong>Different Kinds</strong> of Dreaming
+                          </div>
+                        </ScrollAnimation>
                     </div>
                 </Grid>
                 <Grid item className={'panes'}>
@@ -199,9 +202,11 @@ export default class SleepTypesPane extends Component {
                 </Grid>
                 <Grid item xs={12}>
                     <Typography variant='subheading' component='h3' align='center'>
+                      <ScrollAnimation animateIn="fadeIn" offset={0}>
                         <div className='sleep-types-message'>
                             Made by <a target="_" href="https://sdulal.github.io">Shafqat Dulal</a> and <a target="_" href="http://nimalen.com">Nimalen Sivapalan</a> for the Sleep DeCal. <Sources></Sources>
                         </div>
+                      </ScrollAnimation>
                     </Typography>
                 </Grid>
             </Grid>

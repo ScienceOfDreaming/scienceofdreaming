@@ -1,22 +1,27 @@
 import React, { Component } from 'react';
 import './Basics.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Basics extends Component {
   render() {
     return (
       <div className="Basics">
         <div className="section basics-cover">
+          <ScrollAnimation animateIn="bounceIn" animateOnce={true}>
           <div id="section-big">
               <strong>What</strong> are dreams?
           </div>
+          </ScrollAnimation>
           <div>
 
+            <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
             <div className="left-pane">
               {/*image*/}
               <img className="mini-image" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn" alt=''/>
-
             </div>
+            </ScrollAnimation>
 
+              <ScrollAnimation animateIn="slideInUp" animateOnce={true}>
               <div className="middle-pane">
                 {/*content*/}
                   <div className="content">
@@ -30,9 +35,10 @@ class Basics extends Component {
                   </ul>
                   </div>
               </div>
+              </ScrollAnimation>
 
 
-
+            <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
             <div className="right-pane">
               {/*did you know*/}
               <div className="fact">
@@ -40,6 +46,7 @@ class Basics extends Component {
                 There are many kinds of dreaming - from daydreams and nightmares to out-of-body and lucid dreaming!
               </div>
             </div>
+            </ScrollAnimation>
 
           </div>
         </div>
