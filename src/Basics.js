@@ -26,7 +26,7 @@ class Basics extends Component {
                     <br />
                     <li>Dreams can be confusing, irrational, and bring out a <strong>wide variety of emotions</strong></li>
                     <br />
-                    <li>While you dream, your will is absent or diminished - you do not have any control, with the exception of lucid dreaming</li>
+                    <li>While you dream, your <strong>will is absent or diminished</strong> - you do not have any control, with the exception of lucid dreaming</li>
                   </ul>
                   </div>
               </div>

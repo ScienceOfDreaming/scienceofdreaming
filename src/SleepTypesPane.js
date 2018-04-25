@@ -20,7 +20,7 @@ export default class SleepTypesPane extends Component {
                 <Grid item xs={12} className='vertical-align-content'>
                     <div className='vertical-align-content'>
                         <div className='sleep-types-title'>
-                            The Different Kinds of Dreaming
+                            The <strong>Different Kinds</strong> of Dreaming
                         </div>
                     </div>
                 </Grid>
@@ -200,7 +200,7 @@ export default class SleepTypesPane extends Component {
                 <Grid item xs={12}>
                     <Typography variant='subheading' component='h3' align='center'>
                         <div className='sleep-types-message'>
-                            Made by Shafqat Dulal and Nimalen Sivapalan for the Sleep DeCal. <Sources></Sources>
+                            Made by <a target="_" href="https://sdulal.github.io">Shafqat Dulal</a> and <a target="_" href="http://nimalen.com">Nimalen Sivapalan</a> for the Sleep DeCal. <Sources></Sources>
                         </div>
                     </Typography>
                 </Grid>

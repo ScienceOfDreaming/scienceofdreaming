@@ -56,7 +56,7 @@ class SimpleModal extends React.Component {
             <Typography variant="title" id="modal-title">
               Sources/Credits
             </Typography>
-            <Typography variant="subheading" id="simple-modal-description">
+            <Typography>
               Here is a list of all sources used for this website.
               <ol>
                 <li><a target="_" href="http://dreamscience.org/science_of_dreaming_images/The_Science_of_Dreaming-Rev_1%20_2_.pdf"><em>The Science of Dreaming</em></a> [PDF]</li>
@@ -74,6 +74,9 @@ class SimpleModal extends React.Component {
                 <li><a target="_" href="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn">Image for "What" section</a> [image]</li>
                 <li><a target="_" href="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264">Image for "Why" section</a> [image]</li>
                 <li><a target="_" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q">Image for "When" section</a> [image]</li>
+                <li><a target="_" href="https://thenounproject.com/term/nightmare/968727/">"Nightmare" icon</a> [image]</li>
+                <li><a target="_" href="https://www.google.com/search?hl=en&q=symbol+for+lucid+dreaming&tbm=isch&tbs=simg:CAQSlwEJFKa5262STtEaiwELEKjU2AQaBAgVCAEMCxCwjKcIGmIKYAgDEijhAboCjwLxBsABuwK8AfIBzxLOEv8zuijmNqE0_1TP8M90omj35M8k3GjB4Ombdc9NngbCmz_1Q5Q4lqjVJvPMOtx0mqbWaPg6qOti37rFBXl4X5yu3gg3D4k0UgBAwLEI6u_1ggaCgoICAESBHdgKfgM&sa=X&ved=0ahUKEwiS1f-7ydbaAhVEKo8KHUP2DpgQ2A4IJygB&biw=1280&bih=726">"Lucid dreaming" icon</a> [image]</li>
+                <li><a target="_" href="https://thenounproject.com/term/daydreaming/42805/">"Daydreaming" icon</a> [image]</li>
                 <li><a target="_" href="https://www.favicon.cc/?action=icon&file_id=900481">Favicon</a> [image]</li>
               </ol>
             </Typography>
