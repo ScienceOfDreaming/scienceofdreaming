@@ -5,23 +5,23 @@ class BasicsWhy extends Component {
   render() {
     return (
       <div className="BasicsWhy">
-        <div class="section basicsWhy-cover">
+        <div className="section basicsWhy-cover">
           <div id="section-big">
               <strong>Why</strong> do we dream?
           </div>
           <div>
 
-            <div class="left-pane">
+            <div className="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264" alt=''/>
+              <img className="mini-image" src="https://lh3.googleusercontent.com/OH9FS1WTg0oUyG0Y3paFC8IrcO5x-0Cw4wONk6agjbHvjFRsI06ZuHZ0X49nGuqps7g=h1264" alt=''/>
 
             </div>
 
 
 
-            <div class="middle-pane">
+            <div className="middle-pane">
               {/*content*/}
-                <div class="content">
+                <div className="content">
                 While there are many possible explanations, there is no consensus on these theories.
                 <ul>
                   <li>One hypothesis is dreams <strong>help us adapt to stressful waking events</strong> - relating new stressful situations to how we solved similar problems.</li>
@@ -35,9 +35,9 @@ class BasicsWhy extends Component {
 
 
 
-            <div class="right-pane">
+            <div className="right-pane">
               {/*did you know*/}
-              <div class="fact">
+              <div className="fact">
                 Did you know? <br />
                 We forget <strong>95%</strong> of the dreams we have, especially within the first 10 minutes of having them!
               </div>

@@ -18,6 +18,7 @@ class App extends Component {
               <i>Dream (n): A series of thoughts, images, and sensations occurring in a person's mind during sleep</i>
               </div>
           </div>
+          <div id='overlay'></div>
         </div>
         <Basics></Basics>
         <BasicsWhy></BasicsWhy>

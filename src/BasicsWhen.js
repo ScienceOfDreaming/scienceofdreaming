@@ -5,23 +5,23 @@ class BasicsWhen extends Component {
   render() {
     return (
       <div className="BasicsWhen">
-        <div class="section basicsWhen-cover">
+        <div className="section basicsWhen-cover">
           <div id="section-big">
               <strong>When</strong> do we dream?
           </div>
           <div>
 
-            <div class="left-pane">
+            <div className="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q" alt=''/>
+              <img className="mini-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREskw-dm33ggE4aF5jEJ7oaSwnnjrjNke7JOvSK7fF5uoQCJzh5Q" alt=''/>
 
             </div>
 
 
 
-            <div class="middle-pane">
+            <div className="middle-pane">
               {/*content*/}
-                <div class="content">
+                <div className="content">
                 During our sleep cycle, we alternate between <em>REM</em> (rapid-eye movement) sleep and <em>NREM</em> sleep.
                 <ul>
                   <li>Dreams are possible during both states but happen <strong>more often in REM sleep</strong></li>
@@ -35,9 +35,9 @@ class BasicsWhen extends Component {
 
 
 
-            <div class="right-pane">
+            <div className="right-pane">
               {/*did you know*/}
-              <div class="fact">
+              <div className="fact">
                 Did you know?<br />
                 The time spent dreaming varies with age - adults spend <strong>~25%</strong> of their sleep in REM while children spend <strong>~50%</strong>!
               </div>

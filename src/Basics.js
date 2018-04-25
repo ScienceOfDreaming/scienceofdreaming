@@ -5,21 +5,21 @@ class Basics extends Component {
   render() {
     return (
       <div className="Basics">
-        <div class="section basics-cover">
+        <div className="section basics-cover">
           <div id="section-big">
               <strong>What</strong> are dreams?
           </div>
           <div>
 
-            <div class="left-pane">
+            <div className="left-pane">
               {/*image*/}
-              <img class="mini-image" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn" alt=''/>
+              <img className="mini-image" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA4Mi8wMjYvb3JpZ2luYWwvYnJhaW4tc3RpbXVsYXRpb24uanBn" alt=''/>
 
             </div>
 
-              <div class="middle-pane">
+              <div className="middle-pane">
                 {/*content*/}
-                  <div class="content">
+                  <div className="content">
                   Dreams are a series of <strong>thoughts, images, and sensations</strong> occurring in the mind during sleep.
                   <ul>
                     <li>Dreams are <strong>created at random</strong> through electrical impulses which are recognized by the conscious brain</li>
@@ -33,9 +33,9 @@ class Basics extends Component {
 
 
 
-            <div class="right-pane">
+            <div className="right-pane">
               {/*did you know*/}
-              <div class="fact">
+              <div className="fact">
                 Did you know? <br />
                 There are many kinds of dreaming - from daydreams and nightmares to out-of-body and lucid dreaming!
               </div>

@@ -23,7 +23,7 @@ export default class SleepTypeDialog extends Component {
 
     render() {
         return (
-            <Dialog open={this.props.open} onClose={this.props.onClose} maxWidth='false'>
+            <Dialog open={this.props.open} onClose={this.props.onClose} maxWidth={false}>
                 <div class='dialog-modal-wrapper'>
                   <AppBar position="static" className='app-bar-above-content'>
                       <Tabs
